@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+:root {
+  --color-default: #ffffff;
+  --color-hover: #38a2e5;
+}
+
+body {
+  visibility: hidden;
+  visibility: 0;
+  user-select: none;
+  white-space: nowrap;
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+p {
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
+}
+
+#eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22pt;
+  fill: black;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.interaction {
+  /* font-size: 30px !important; */
+  scale: 1.5 !important;
+  color: #38a2e5 !important;
+}
+
+.eye-hover {
+  fill: var(--color-default);
+}
+
+#options-wrapper {
+  position: absolute;
+  top: 52%;
+  left: 48.5%;
+}
+
+.option-container {
+  color: var(--color-default);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  background: transparent;
+  font-size: 15pt;
+  line-height: 22pt;
+  vertical-align: middle;
+  margin-left: 5pt;
+  transition: 300ms;
+  transform-origin: left top;
+  scale: 1;
+  height: 22pt;
+  width: 150pt;
+  top: 0;
+}
+
+.option-container:hover {
+  background: transparent;
+  transform-origin: left top;
+  color: var(--color-hover);
+  margin-left: 7pt;
+}
+
+.option-container:hover .option-icon {
+  color: var(--color-hover) !important;
+}
+
+.option-icon {
+  font-size: 12pt;
+  line-height: 22pt;
+  width: 14pt;
+  margin: 5pt;
+  color: var(--color-default);
+  transition: all 0.3s ease;
+}
+
+.option-label {
+  font-weight: 500;
+}
+
+#eye-image {
+  width: 60px;
+  height: 44px;
+}

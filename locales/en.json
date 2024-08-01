@@ -1,0 +1,16 @@
+{
+  "toggle_front_driver_door": "Отвори/Затвори Предна Лява Врата",
+  "toggle_front_passenger_door": "Отвори/Затвори Предна Дясна Врата",
+  "toggle_rear_driver_door": "Отвори/Затвори Задна Лява Врата",
+  "toggle_rear_passenger_door": "Отвори/Затвори Задна Дясна Врата",
+  "toggle_hood": "Отвори/Затвори Капак",
+  "toggle_trunk": "Отвори/Затвори Багажник",
+  "debug_box": "(Debug) Box",
+  "debug_sphere": "(Debug) Sphere",
+  "debug_police_car": "Police car",
+  "debug_ped": "(Debug) Ped",
+  "debug_vehicle": "(Debug) Vehicle",
+  "debug_object": "(Debug) Object",
+  "toggle_targeting": "Toggle targeting",
+  "go_back": "Върни се назад"
+}
